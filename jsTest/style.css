@@ -1,0 +1,8 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: rgb(245, 236, 219); 
+   text-align: center;
+   -webkit-text-emphasis-style: open;
+   font-weight: 500;
+}

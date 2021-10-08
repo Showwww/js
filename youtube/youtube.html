@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./youtube.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><img src="../img/cub-studio-logos-retime-2.gif" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times " onclick="hidenMenu()" ></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1> Los estaciones del anio</h1>
+            <p>
+                Hola. Me llamo Patrick. Soy inglés. Vivo en Madrid desde hace 10 años. Me gusta mi vida en España. <br>
+                Tengo un trabajo interesante y muchos amigos. Hoy es mi cumpleaños. Ya tengo 34 años. ¡Cómo pasa el tiempo!
+            </p>
+            <a href="" class="hero-btn">Hola</a>
+        </div>
+    </header>
+    <main>
+        <section class="colum"333333333333333333>
+            <h1>Course We Offer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Perspiciatis quod velit sed quam neque dicta eligendi omnis voluptas nisi, iure blanditiis dolorum voluptatum amet!
+                Optio numquam expedita ea ipsa voluptatem.</p>
+        </section>
+        
+    </main>
+    <!--Java script lil menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+            function hidenMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

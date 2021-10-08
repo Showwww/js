@@ -245,6 +245,7 @@ textarea {
 
   tr,
   img {
+    
     page-break-inside: avoid;
   }
 
@@ -260,4 +261,95 @@ textarea {
     page-break-after: avoid;
   }
 }
+.grid {
+  background-color: #b3d4fc;
+  display: grid;
+  grid-template-areas:
+      "h h"
+      "n m";
+  grid-template-columns: 1fr 15fr;
+  grid-template-rows: 50px 750px 40px;
+}
+.mainForm{
+  text-align: right;
+  position: absolute;
+  right: 10px;
+  margin-top: 10px;
+}
+header{
+  display: flex;
+  grid-area: h;
+  color:yellowgreen;
+  background-color: hsl(60, 33%, 97%);
+}
+  header img{
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+  }
+  header h3{
+    position: static;
+  }
+.main div{
+    text-align: center;
+    cursor: pointer; 
+    color: #666;
+  }
+  .main{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  }
+.nav {
+  grid-area: n;
+  background-color: white;
+}
+.nav form{
+  margin: 10px;
+  text-shadow: #b3d4fc;
+}
+a {
+  font-variant-caps: all-petite-caps;
+  text-decoration: none;
+  color: #999;
+  shape-image-threshold: initial;
+}
+ a:hover{
+   transition: 1s;
+   color: teal;
+ }
+ /*css для меню хедера*/
+ .w3-padding-32 {
+  
+  text-align: center;
+}
 
+.w3-bar {
+  display: inline-block;
+  width: auto;
+}
+.w3-button {
+      font-size: 27px;
+      color: #666;
+      padding: 8px 16px;
+      overflow: hidden;
+      text-decoration: none;
+      background-color: inherit;
+      text-align: center;
+      cursor: pointer; 
+}
+.w3-bar a:hover{
+  font-size: 15px;
+  color:teal;
+  transition: 5s;
+}
+.w3-bar a:active{
+  background-color: rgb(128, 196, 196);
+  color: rgb(128, 196, 196);
+}
+.box{
+width: 100px;
+padding: 10px;
+margin: 10px;
+box-sizing: border-box;
+border: 1px solid black;
+}

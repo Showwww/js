@@ -1,0 +1,53 @@
+.main{
+  border: 1px solid black;
+  height: 300px;
+}
+.Second{
+  box-shadow: inset 0px 0px 7px 0px;
+  height: 100px;
+  
+}
+.box{
+  width: 150px;
+  height: 150px;
+  background-image: linear-gradient( rgb(48, 201, 94), rgb(190, 190, 165));
+  border-radius: 20;
+  border: 1px, solid black;
+  border-radius: 700px 40px;
+  transform: translate(0px, 0px);
+}
+.box>h1{
+  text-align: center;
+  text-shadow: -1px 1px 5px #486545;
+  margin-top: 10px;
+}
+#insta {
+  background: url("/img/instagram.png") left top,
+   url("/img/back.gif") center top, url("/img/back.gif") left repeat-y, url("/img/back.gif") right bottom rgba(189, 182, 182, 0.363);
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+#nun{
+  border-right: 30px double rgb(27 25 25 / 15%);
+  border-radius: 10%;
+}
+.base{
+  margin: auto;
+    justify-content: center;
+    width: 80px;
+    height: 200px;
+    background-image: linear-gradient(93deg, #795548, #fdfdfd); box-shadow: 10px 10px 5px grey;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lifs{
+  width: 100px;
+  height: 100px;
+  color: green;
+  background-image: repeating-linear-gradient( 2deg
+, #2dca34, #19e41500 100px);
+  border-radius: 300px;
+}
